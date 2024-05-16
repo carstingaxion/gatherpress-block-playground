@@ -27,8 +27,8 @@
       },
       {
         "step": "login",
-        "username": "editor",
-        "password": "editorpass"
+        "username": "admin",
+        "password": "password"
       },
       {
           "step": "writeFile",
