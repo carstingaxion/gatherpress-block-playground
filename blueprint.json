@@ -71,7 +71,7 @@
         "step": "importFile",
         "file": {
           "resource": "url",
-          "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/gatherPress.block-demo.xml"
+          "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/gatherpress.block-demo.xml"
         }
       }
     ]
