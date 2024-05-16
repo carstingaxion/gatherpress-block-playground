@@ -19,20 +19,20 @@ jobs:
           path: 'wp-content/plugins/gatherpress'
           ref: feature/export-import
 
-      - name: Clone GatherPress sourcecode.
+      - name: Clone gatherpress-query-loop sourcecode.
         uses: actions/checkout@v4
         with:
           repository: 'carstingaxion/gatherpress-query-loop'
           path: 'wp-content/plugins/gatherpress-query-loop'
           ref: gpql
 
-      - name: Clone GatherPress sourcecode.
+      - name: Clone gatherpress-venue sourcecode.
         uses: actions/checkout@v4
         with:
           repository: 'carstingaxion/gatherpress-venue'
           path: 'wp-content/plugins/gatherpress-venue'
 
-      - name: Clone GatherPress sourcecode.
+      - name: Clone gatherpress-venue-website sourcecode.
         uses: actions/checkout@v4
         with:
           repository: 'carstingaxion/gatherpress-venue-website'
