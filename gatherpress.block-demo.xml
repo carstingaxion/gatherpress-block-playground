@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.3" created="2024-05-16 14:07" -->
+	<!-- generator="WordPress/6.5.3" created="2024-05-17 14:34" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,16 +26,16 @@
 >
 
 <channel>
-	<title>GatherPress</title>
-	<link>https://playground.wordpress.net/scope:0.6757783387172769</link>
-	<description>Powering Communities with WordPress.</description>
-	<pubDate>Thu, 16 May 2024 14:07:05 +0000</pubDate>
+	<title>gatherpress.test</title>
+	<link>http://gatherpress.test</link>
+	<description></description>
+	<pubDate>Fri, 17 May 2024 14:34:27 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://playground.wordpress.net/scope:0.6757783387172769</wp:base_site_url>
-	<wp:base_blog_url>https://playground.wordpress.net/scope:0.6757783387172769</wp:base_blog_url>
+	<wp:base_site_url>http://gatherpress.test/</wp:base_site_url>
+	<wp:base_blog_url>http://gatherpress.test</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@localhost.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[_cb_admin]]></wp:author_login><wp:author_email><![CDATA[mail@carsten-bach.de]]></wp:author_email><wp:author_display_name><![CDATA[_cb_admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 		<wp:category>
 		<wp:term_id>1</wp:term_id>
@@ -44,14 +44,21 @@
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
 				<wp:term>
-		<wp:term_id>5</wp:term_id>
+		<wp:term_id>4</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_berlin]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Berlin]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>4</wp:term_id>
+		<wp:term_id>9</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[holiday]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Holiday]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>5</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_new-york]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -71,209 +78,97 @@
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Turin]]></wp:term_name>
 	</wp:term>
+		<wp:term>
+		<wp:term_id>8</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[wordpress]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[WordPress]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>7</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[gatherpress]]></wp:term_slug>
+		<wp:term_parent><![CDATA[wordpress]]></wp:term_parent>
+		<wp:term_name><![CDATA[GatherPress]]></wp:term_name>
+	</wp:term>
 		
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
-		<item>
-		<title><![CDATA[Hello world!]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/2024/05/hello-world/</link>
-		<pubDate>Tue, 07 May 2024 16:05:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2024-05-07 16:05:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-07 16:05:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2024-05-07 16:05:41]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2024-05-07 16:05:41]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-							</wp:comment>
-					</item>
 					<item>
-		<title><![CDATA[Sample Page]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/sample-page/</link>
-		<pubDate>Tue, 07 May 2024 16:05:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=2</guid>
+		<title><![CDATA[query events]]></title>
+		<link>http://gatherpress.test/query-events/</link>
+		<pubDate>Fri, 17 May 2024 12:03:43 +0000</pubDate>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
+		<guid isPermaLink="false">http://gatherpress.test/?page_id=7</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+		<content:encoded><![CDATA[<!-- wp:query {"queryId":6,"query":{"perPage":3,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-query-loop"} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:gatherpress/event-date /-->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"tagName":"button","className":"gp-add-to-calendar"} -->
+<div class="wp-block-button gp-add-to-calendar"><button type="button" class="wp-block-button__link wp-element-button" title="Allows you to add an event to your preferred calendar.">📅 Add to Calendar (v2)</button></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:group {"className":"gp-venue-v3","layout":{"type":"flex","orientation":"nonsense"}} -->
+<div class="gp-venue-v3"><!-- wp:post-featured-image /-->
+
+<!-- wp:paragraph {"placeholder":"Add some infos about the venue and maybe a nice picture."} -->
+<p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</p></blockquote>
-<!-- /wp:quote -->
+<!-- wp:paragraph {"placeholder":"No website added, yet.","metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"venue_information__website"}}}},"className":"gp-venue-website"} -->
+<p class="gp-venue-website"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
 
-<!-- wp:paragraph -->
-<p>...or something like this:</p>
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+<p></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:paragraph -->
-<p>As a new WordPress user, you should go to <a href="http://127.0.0.1:8000/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2024-05-07 16:05:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-07 16:05:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_modified_gmt>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2024-05-17 12:03:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-05-17 12:03:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:21:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:21:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page]]></wp:post_name>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[query-events]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Privacy Policy]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/?page_id=3</link>
-		<pubDate>Tue, 07 May 2024 16:05:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=3</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading -->
-<h2 class="wp-block-heading">Who we are</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Our website address is: http://127.0.0.1:8000.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Comments</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Media</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Cookies</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Embedded content from other websites</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Who we share your data with</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you request a password reset, your IP address will be included in the reset email.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">How long we retain your data</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">What rights you have over your data</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p>
-<!-- /wp:paragraph -->
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Where your data is sent</h2>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><strong class="privacy-policy-tutorial">Suggested text: </strong>Visitor comments may be checked through an automated spam detection service.</p>
-<!-- /wp:paragraph -->
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3</wp:post_id>
-		<wp:post_date><![CDATA[2024-05-07 16:05:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-07 16:05:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-07 16:05:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
+														</item>
+
 					<item>
 		<title><![CDATA[Events]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/events/</link>
+		<link>http://gatherpress.test/events/</link>
 		<pubDate>Mon, 29 Apr 2024 23:30:46 +0000</pubDate>
-		<dc:creator><![CDATA[]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.8940956463231244/?page_id=18</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"65%"} -->
 <div class="wp-block-column" style="flex-basis:65%"><!-- wp:image -->
-<figure class="wp-block-image"><img src="https://raw.githubusercontent.com/carstingaxion/gatherpress-demo-data/main/assets/gatherpress-events-list-block--inserter.png" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://raw.githubusercontent.com/carstingaxion/gatherpress-demo-data/main/assets/gatherpress-events-list-block--inserter.png" alt="" /></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -309,36 +204,12 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:meta_value><![CDATA[editor]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+
 					<item>
-		<title><![CDATA[Custom Styles]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/2024/05/wp-global-styles-twentytwentyfour/</link>
-		<pubDate>Thu, 16 May 2024 14:02:29 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/2024/05/wp-global-styles-twentytwentyfour/</guid>
-		<description></description>
-		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>20</wp:post_id>
-		<wp:post_date><![CDATA[2024-05-16 14:02:29]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-05-16 14:02:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:02:29]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:02:29]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wp-global-styles-twentytwentyfour]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="twentytwentyfour"><![CDATA[twentytwentyfour]]></category>
-						</item>
-					<item>
-		<title><![CDATA[Christmas]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/event/christmas/</link>
+		<title><![CDATA[Christmas 2025]]></title>
+		<link>http://gatherpress.test/event/christmas/</link>
 		<pubDate>Thu, 16 May 2024 14:04:21 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/?post_type=gatherpress_event&#038;p=21</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:gatherpress/event-date /-->
@@ -358,8 +229,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-16 14:04:21]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-16 14:04:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:06:42]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:06:42]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:31:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:31:58]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[christmas]]></wp:post_name>
@@ -369,7 +240,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="_gatherpress_venue" nicename="_new-york"><![CDATA[New York]]></category>
+										<category domain="gatherpress_topic" nicename="holiday"><![CDATA[Holiday]]></category>
+		<category domain="_gatherpress_venue" nicename="_new-york"><![CDATA[New York]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_max_guest_limit]]></wp:meta_key>
 		<wp:meta_value><![CDATA[0]]></wp:meta_value>
@@ -390,17 +262,20 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2025-12-24 10:00:00";s:18:"datetime_start_gmt";s:19:"2025-12-24 10:00:00";s:12:"datetime_end";s:19:"2025-12-26 23:00:00";s:16:"datetime_end_gmt";s:19:"2025-12-26 23:00:00";s:8:"timezone";s:6:"+00:00";}]]></wp:meta_value>
+									<wp:postmeta>
+					<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
+					<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2025-12-24 10:00:00";s:18:"datetime_start_gmt";s:19:"2025-12-24 10:00:00";s:12:"datetime_end";s:19:"2025-12-26 23:00:00";s:16:"datetime_end_gmt";s:19:"2025-12-26 23:00:00";s:8:"timezone";s:6:"+00:00";}]]></wp:meta_value>
+				</wp:postmeta>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[New York]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/venue/new-york/</link>
+		<link>http://gatherpress.test/venue/new-york/</link>
 		<pubDate>Thu, 16 May 2024 14:04:47 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/?post_type=gatherpress_venue&#038;p=23</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:gatherpress/venue /-->]]></content:encoded>
@@ -408,8 +283,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-16 14:04:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-16 14:04:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:04:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:04:47]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:34:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:34:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[new-york]]></wp:post_name>
@@ -421,7 +296,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_venue_information]]></wp:meta_key>
-		<wp:meta_value><![CDATA[{"fullAddress":"New York"}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[{"fullAddress":"New York","website":"https://en.wikipedia.org/wiki/New_York_City"}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
@@ -430,9 +305,9 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 							</item>
 					<item>
 		<title><![CDATA[Berlin]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/venue/berlin/</link>
+		<link>http://gatherpress.test/venue/berlin/</link>
 		<pubDate>Thu, 16 May 2024 14:05:08 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/?post_type=gatherpress_venue&#038;p=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:gatherpress/venue /-->]]></content:encoded>
@@ -440,8 +315,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-16 14:05:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-16 14:05:08]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:05:08]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:05:08]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:33:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:33:29]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[berlin]]></wp:post_name>
@@ -453,7 +328,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_venue_information]]></wp:meta_key>
-		<wp:meta_value><![CDATA[{"fullAddress":"Berlin"}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[{"fullAddress":"Berlin","website":"https://github.com/berlindb"}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
@@ -462,9 +337,9 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 							</item>
 					<item>
 		<title><![CDATA[WCEU]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/event/wceu/</link>
+		<link>http://gatherpress.test/event/wceu/</link>
 		<pubDate>Thu, 16 May 2024 14:05:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/?post_type=gatherpress_event&#038;p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:gatherpress/event-date /-->
@@ -484,8 +359,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_id>27</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-16 14:05:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-16 14:05:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:06:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:06:27]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:32:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:32:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wceu]]></wp:post_name>
@@ -495,7 +370,9 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="_gatherpress_venue" nicename="_turin"><![CDATA[Turin]]></category>
+										<category domain="gatherpress_topic" nicename="holiday"><![CDATA[Holiday]]></category>
+		<category domain="_gatherpress_venue" nicename="_turin"><![CDATA[Turin]]></category>
+		<category domain="gatherpress_topic" nicename="wordpress"><![CDATA[WordPress]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_max_guest_limit]]></wp:meta_key>
 		<wp:meta_value><![CDATA[0]]></wp:meta_value>
@@ -516,16 +393,20 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-				<wp:postmeta>
-			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2024-06-13 18:00:00";s:18:"datetime_start_gmt";s:19:"2024-06-13 18:00:00";s:12:"datetime_end";s:19:"2024-06-15 20:00:00";s:16:"datetime_end_gmt";s:19:"2024-06-15 20:00:00";s:8:"timezone";s:6:"+00:00";}]]></wp:meta_value>
+									<wp:postmeta>
+					<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
+					<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2024-06-13 18:00:00";s:18:"datetime_start_gmt";s:19:"2024-06-13 18:00:00";s:12:"datetime_end";s:19:"2024-06-15 20:00:00";s:16:"datetime_end_gmt";s:19:"2024-06-15 20:00:00";s:8:"timezone";s:6:"+00:00";}]]></wp:meta_value>
+				</wp:postmeta>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Turin]]></title>
-		<link>https://playground.wordpress.net/scope:0.6757783387172769/venue/turin/</link>
+		<link>http://gatherpress.test/venue/turin/</link>
 		<pubDate>Thu, 16 May 2024 14:06:04 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.6757783387172769/?post_type=gatherpress_venue&#038;p=29</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:gatherpress/venue /-->]]></content:encoded>
@@ -533,8 +414,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_id>29</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-16 14:06:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-16 14:06:04]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-16 14:06:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-16 14:06:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:33:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:33:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[turin]]></wp:post_name>
@@ -546,7 +427,170 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_venue_information]]></wp:meta_key>
-		<wp:meta_value><![CDATA[{"fullAddress":"Turin"}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[{"fullAddress":"Turin","website":"https://en.wikipedia.org/wiki/Turin"}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[xmas 1990]]></title>
+		<link>http://gatherpress.test/event/xmas-1990/</link>
+		<pubDate>Fri, 17 May 2024 13:06:09 +0000</pubDate>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
+		<guid isPermaLink="false">http://gatherpress.test/?post_type=gatherpress_event&#038;p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:gatherpress/event-date /-->
+
+<!-- wp:gatherpress/add-to-calendar /-->
+
+<!-- wp:gatherpress/venue /-->
+
+<!-- wp:gatherpress/rsvp /-->
+
+<!-- wp:paragraph {"placeholder":"Add a description of the event and let people know what to expect, including the agenda, what they need to bring, and how to find the group."} -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gatherpress/rsvp-response /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2024-05-17 13:06:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-05-17 13:06:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:32:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:32:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[xmas-1990]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="_gatherpress_venue" nicename="_berlin"><![CDATA[Berlin]]></category>
+		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[Holiday]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_max_guest_limit]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_enable_anonymous_rsvp]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_enable_initial_decline]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_online_event_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+									<wp:postmeta>
+					<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
+					<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"1990-12-24 18:00:00";s:18:"datetime_start_gmt";s:19:"1990-12-24 18:00:00";s:12:"datetime_end";s:19:"1990-12-26 20:00:00";s:16:"datetime_end_gmt";s:19:"1990-12-26 20:00:00";s:8:"timezone";s:6:"+00:00";}]]></wp:meta_value>
+				</wp:postmeta>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Gatherpress huddle #41]]></title>
+		<link>http://gatherpress.test/event/gatherpress-huddle-41/</link>
+		<pubDate>Fri, 17 May 2024 13:35:23 +0000</pubDate>
+		<dc:creator><![CDATA[_cb_admin]]></dc:creator>
+		<guid isPermaLink="false">http://gatherpress.test/?post_type=gatherpress_event&#038;p=47</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:gatherpress/event-date /-->
+
+<!-- wp:gatherpress/add-to-calendar /-->
+
+<!-- wp:gatherpress/venue /-->
+
+<!-- wp:gatherpress/rsvp /-->
+
+<!-- wp:paragraph {"placeholder":"Add a description of the event and let people know what to expect, including the agenda, what they need to bring, and how to find the group."} -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gatherpress/rsvp-response /-->
+
+<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"/>
+<!-- /wp:separator -->
+
+<!-- wp:query {"queryId":3,"query":{"perPage":3,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"desc","orderBy":"date","inherit":false,"exclude_current":47,"taxQuery":null},"namespace":"gatherpress-query-loop"} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":"3"}} -->
+<!-- wp:group {"style":{"border":{"width":"1px","color":"#b5bdbc","radius":"4px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base-2","className":"wp-block-group","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-border-color has-base-2-background-color has-background" style="border-color:#b5bdbc;border-width:1px;border-radius:4px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"className":"wp-block-group","layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:gatherpress/event-date /-->
+
+<!-- wp:gatherpress/venue {"mapShow":false} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:cover {"useFeaturedImage":true,"isUserOverlayColor":true,"minHeight":198,"minHeightUnit":"px","customGradient":"linear-gradient(277deg,rgba(217,97,61,0) 79%,rgb(255,255,255) 79%)","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"margin":{"top":"0","bottom":"0"}},"layout":{"selfStretch":"fill","flexSize":null}},"textColor":"contrast"} -->
+<div class="wp-block-cover has-contrast-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;min-height:198px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(277deg,rgba(217,97,61,0) 79%,rgb(255,255,255) 79%)"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size"></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Füge einen Text oder Blöcke hinzu, die angezeigt werden, wenn die Abfrage keine Ergebnisse ausgibt."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2024-05-17 13:35:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-05-17 13:35:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-05-17 14:31:06]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-05-17 14:31:06]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gatherpress-huddle-41]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="gatherpress_topic" nicename="gatherpress"><![CDATA[GatherPress]]></category>
+		<category domain="_gatherpress_venue" nicename="online-event"><![CDATA[Online event]]></category>
+		<category domain="gatherpress_topic" nicename="wordpress"><![CDATA[WordPress]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_max_guest_limit]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_enable_anonymous_rsvp]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_enable_initial_decline]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[gatherpress_online_event_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://gatherpress.org/event/gatherpress-weekly-huddle-41/]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
