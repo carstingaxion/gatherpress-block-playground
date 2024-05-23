@@ -24,7 +24,7 @@ jobs:
         with:
           repository: 'carstingaxion/additional-advanced-query-loops'
           path: 'wp-content/plugins/gatherpress-query-loop'
-          ref: gpql
+          ref: gatherpress-query-loop
 
       - name: Clone gatherpress-venue sourcecode.
         uses: actions/checkout@v4
