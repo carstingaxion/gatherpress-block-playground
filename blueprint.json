@@ -1,79 +1,83 @@
 {
-    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "landingPage": "https://playground.wordpress.net/wp-admin/",
-    "preferredVersions": {
-      "php": "8.2",
-      "wp": "6.5"
-    },
-    "phpExtensionBundles": [
-      "kitchen-sink"
-    ],
-    "features": {
-      "networking": true
-    },
-    "steps": [
-      {
-        "step": "setSiteOptions",
-        "options": {
-          "blogname": "GatherPress",
-          "blogdescription": "Powering Communities with WordPress.",
-          "users_can_register": 1,
-          "permalink_structure": "/%year%/%monthnum%/%postname%/"
-        }
-      },
-      {
-        "step": "runPHP",
-        "code": "<?php require '/wordpress/wp-load.php'; $user_id = wp_create_user('editor', 'editorpass', 'editor@localhost.test'); (new WP_User($user_id))->set_role('editor');"
-      },
-      {
-        "step": "login",
-        "username": "admin",
-        "password": "password"
-      },
-      {
-          "step": "writeFile",
-          "path": "/wordpress/assets.zip",
-          "data": {
-              "resource": "url",
-              "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/zips/playground-assets.zip",
-              "caption": "Downloading CI/CD prepared assets."
-          },
-          "progress": {
-              "weight": 2,
-              "caption": "Applying CI/CD prepared assets."
-          }
-      },
-      {
-          "step": "unzip",
-          "zipFile": {
-            "resource": "vfs",
-            "path": "/wordpress/assets.zip"
-          },
-          "extractToPath": "/wordpress"
-      },
-      {
-        "step": "wp-cli",
-        "command": "wp plugin activate gatherpress"
-      },
-      {
-        "step": "wp-cli",
-        "command": "wp plugin activate gatherpress-query-loop"
-      },
-      {
-        "step": "wp-cli",
-        "command": "wp plugin activate gatherpress-venue"
-      },
-      {
-        "step": "wp-cli",
-        "command": "wp plugin activate gatherpress-venue-website"
-      },
-      {
-        "step": "importFile",
-        "file": {
-          "resource": "url",
-          "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/gatherpress.block-demo.xml"
-        }
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "https://playground.wordpress.net/wp-admin/post.php?post=7&action=edit",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "GatherPress",
+        "blogdescription": "Powering Communities with WordPress.",
+        "users_can_register": 1,
+        "permalink_structure": "/%year%/%monthnum%/%postname%/"
       }
-    ]
-  }
-  
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; $user_id = wp_create_user('editor', 'editorpass', 'editor@localhost.test'); (new WP_User($user_id))->set_role('editor');"
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress&branch=export-import--plus-block-cherries"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/additional-advanced-query-loops&branch=gatherpress-query-loop"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-add-to-calendar&branch=interactivity-api"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue-website"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-demo-data/main/GatherPress-demo-data-2024.xml"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/gatherpress.block-demo.xml"
+      }
+    }
+  ]
+}
