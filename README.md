@@ -1,10 +1,10 @@
-# gatherpress-block-playground
+# GatherPress `block` Playground
 
 This WordPress Playground shows state in the ongoing *block transformation process* of GatherPress. 
 
 Main Issue: [blocks in the big picture](https://github.com/GatherPress/gatherpress/issues/626)
 
-## The Playground loads the following plugins
+## ... loads the following plugins
 
 ...which should be merged into GatherPress one by one.
 
@@ -19,11 +19,14 @@ Main Issue: [blocks in the big picture](https://github.com/GatherPress/gatherpre
 | The map block | ... | [ISSUE: NEW Venue Map block](https://github.com/GatherPress/gatherpress/issues/639) |
 
 
-## In addition some demo content is imported.
+## ... imports some demo content
 
 - The *(not, yet) default* [GatherPress demo-data](https://github.com/carstingaxion/gatherpress-demo-data)
 - [one additional page](/gatherpress.block-demo.xml) "Query Events" with all blocks in use
 
+## ... and sets some options
 
+- Enable user registration, via `users_can_register`
+- Enable pretty permalinks
 
 [<kbd> <br> Edit <code>blueprint.json</code> <br> </kbd>](https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/blueprint.json)
