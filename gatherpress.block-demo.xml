@@ -65,7 +65,7 @@
 <p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"placeholder":"No website added, yet.","metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"venue_information__website"}}}},"className":"gp-venue-website"} -->
+<!-- wp:paragraph {"placeholder":"No website added, yet.","metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"venue_information_website"}}}},"className":"gp-venue-website"} -->
 <p class="gp-venue-website"></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
