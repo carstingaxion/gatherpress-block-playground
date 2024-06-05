@@ -2,7 +2,8 @@
 
 This WordPress Playground shows state in the ongoing *block transformation process* of GatherPress. 
 
-Main Issue: [blocks in the big picture](https://github.com/GatherPress/gatherpress/issues/626)
+- [blocks in the big picture](https://github.com/GatherPress/gatherpress/issues/626) is the main issue
+- [![BLOCKS](https://img.shields.io/badge/blocks-%23135545)](https://github.com/GatherPress/gatherpress/issues?q=is%3Aissue+is%3Aopen+label%3Ablocks) is the corresponding Label
 
 ## ... loads the following plugins
 
