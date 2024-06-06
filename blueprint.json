@@ -61,17 +61,17 @@
     {
       "step": "installPlugin",
       "pluginZipFile": {
-        "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue-website"
+          "resource": "wordpress.org/plugins",
+          "slug": "gutenberg"
       }
     },
     {
       "step": "installPlugin",
       "pluginZipFile": {
-          "resource": "wordpress.org/plugins",
-          "slug": "gutenberg"
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue-website"
       }
-  },
+    },
     {
       "step": "importWxr",
       "file": {
