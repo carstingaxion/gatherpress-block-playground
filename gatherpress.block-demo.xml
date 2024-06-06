@@ -36,17 +36,37 @@
 	<wp:base_blog_url>http://gatherpress.test</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[mail@localhost]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-		
+		<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
+	</wp:category>
+			<wp:tag>
+		<wp:term_id>10</wp:term_id>
+		<wp:tag_slug><![CDATA[block-patterns]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[block-patterns]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>11</wp:term_id>
+		<wp:tag_slug><![CDATA[blocks]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[blocks]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>12</wp:term_id>
+		<wp:tag_slug><![CDATA[documentation]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[documentation]]></wp:tag_name>
+	</wp:tag>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 					<item>
 		<title><![CDATA[Query events with blocks]]></title>
-		<link>http://gatherpress.test/query-events/</link>
+		<link>https://gatherpress.test/query-events/</link>
 		<pubDate>Fri, 17 May 2024 12:03:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://gatherpress.test/?page_id=7</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-query-loop"} -->
+		<content:encoded><![CDATA[<!-- wp:query {"queryId":6,"query":{"perPage":3,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"rand","inherit":false},"namespace":"gatherpress-query-loop"} -->
 <div class="wp-block-query"><!-- wp:post-template -->
 <!-- wp:post-title {"isLink":true} /-->
 
@@ -57,18 +77,6 @@
 <div class="wp-block-button gp-add-to-calendar"><button type="button" class="wp-block-button__link wp-element-button" title="Allows you to add an event to your preferred calendar.">📅 Add to Calendar (v2)</button></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-
-<!-- wp:group {"className":"gp-venue-v3","layout":{"type":"flex","orientation":"nonsense"}} -->
-<div class="gp-venue-v3"><!-- wp:post-featured-image /-->
-
-<!-- wp:paragraph {"placeholder":"Add some infos about the venue and maybe a nice picture."} -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"placeholder":"No website added, yet.","metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"venue_information_website"}}}},"className":"gp-venue-website"} -->
-<p class="gp-venue-website"></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-pagination -->
@@ -89,8 +97,8 @@
 		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2024-05-17 12:03:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-05-17 12:03:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-05-17 14:21:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-05-17 14:21:10]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-06-04 22:09:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-06-04 22:09:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[query-events]]></wp:post_name>
@@ -100,8 +108,16 @@
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
 						</item>
-														<item>
+					<item>
 		<title><![CDATA[Hookable patterns for events &amp; venues]]></title>
 		<link>https://gatherpress.test/2024/06/05/hookable-patterns-for-events-venues/</link>
 		<pubDate>Wed, 05 Jun 2024 21:14:48 +0000</pubDate>
@@ -181,8 +197,8 @@
 		<wp:post_id>153</wp:post_id>
 		<wp:post_date><![CDATA[2024-06-05 21:14:48]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-05 21:14:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-06-05 21:30:28]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-06-05 21:30:28]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-06-05 22:03:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-06-05 22:03:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[hookable-patterns-for-events-venues]]></wp:post_name>
