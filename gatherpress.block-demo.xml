@@ -66,17 +66,33 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://gatherpress.test/?page_id=7</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:query {"queryId":6,"query":{"perPage":3,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"rand","inherit":false},"namespace":"gatherpress-query-loop"} -->
+		<content:encoded><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-query-loop"} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:post-title {"isLink":true} /-->
+<!-- wp:post-title /-->
 
-<!-- wp:gatherpress/event-date /-->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div><!-- wp:gatherpress/event-date /-->
 
-<!-- wp:buttons -->
+<!-- wp:post-excerpt {"excerptLength":20} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"tagName":"button","className":"gp-add-to-calendar"} -->
 <div class="wp-block-button gp-add-to-calendar"><button type="button" class="wp-block-button__link wp-element-button" title="Allows you to add an event to your preferred calendar.">📅 Add to Calendar (v2)</button></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"className":"gp-venue-v3","layout":{"type":"flex","orientation":"nonsense","justifyContent":"right"}} -->
+<div class="gp-venue-v3"><!-- wp:post-title {"textAlign":"right","level":3,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} /-->
+
+<!-- wp:paragraph {"align":"right","placeholder":"No website added, yet.","metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"venue_information_website"}}}},"style":{"typography":{"fontSize":"0.7rem"}},"className":"gp-venue-website"} -->
+<p class="has-text-align-right gp-venue-website" style="font-size:0.7rem"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-pagination -->
