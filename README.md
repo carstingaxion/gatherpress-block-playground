@@ -1,6 +1,6 @@
 # GatherPress `block` Playground
 
-This WordPress Playground shows state in the ongoing *block transformation process* of GatherPress. 
+[This WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/blueprint.json) shows state in the ongoing *block transformation process* of GatherPress. 
 
 - [blocks in the big picture](https://github.com/GatherPress/gatherpress/issues/626) is the main issue
 - [![BLOCKS](https://img.shields.io/badge/blocks-%23135545)](https://github.com/GatherPress/gatherpress/issues?q=is%3Aissue+is%3Aopen+label%3Ablocks) is the corresponding Label
@@ -32,5 +32,8 @@ This WordPress Playground shows state in the ongoing *block transformation proce
 
 - Enable user registration, via `users_can_register`
 - Enable pretty permalinks
+
+
+[<kbd> <br>Test it using <code>WordPress' playground</code> <br> </kbd>](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/blueprint.json)
 
 [<kbd> <br> Edit <code>blueprint.json</code> <br> </kbd>](https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/blueprint.json)
