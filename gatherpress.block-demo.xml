@@ -67,7 +67,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:query {"queryId":0,"query":{"postType":"gatherpress_event","gatherpress_events_query":"upcoming","perPage":1,"inherit":false,"offset":0,"order":"asc","taxQuery":{"gatherpress_topic":[9]}},"namespace":"gatherpress-query-loop","enhancedPagination":true,"metadata":{"patternName":"gatherpress-query-loop/title-date-with-cover","name":"Event date \u0026 Title on image-cover"},"align":"wide"} -->
+<div class="wp-block-column"><!-- wp:query {"queryId":0,"query":{"postType":"gatherpress_event","gatherpress_events_query":"upcoming","perPage":1,"inherit":false,"offset":0,"order":"asc","taxQuery":{"gatherpress_topic":[]}},"namespace":"gatherpress-query-loop","enhancedPagination":true,"metadata":{"patternName":"gatherpress-query-loop/title-date-with-cover","name":"Event date \u0026 Title on image-cover"},"align":"wide"} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"29rem"}} -->
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":80,"overlayColor":"contrast","isUserOverlayColor":true,"minHeightUnit":"px","style":{"color":{"duotone":"var:preset|duotone|duotone-1"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","layout":{"type":"default"},"fontSize":"large"} -->
 <div class="wp-block-cover has-base-2-color has-text-color has-link-color has-large-font-size"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-80 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center","isLink":true,"fontSize":"xx-large"} /--></div></div>
@@ -84,7 +84,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p>On the left you find an interactive query with upcoming events, that are tagged with holiday.</p>
+<p>On the left you find an interactive query with upcoming events.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -92,7 +92,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In that case, it would make totally sense to have some details about the venue below. Now selected manually</p>
+<p>In that case, it would make totally sense to have some details about the venue below. Now it's selected manually.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"gp-venue-v3","layout":{"type":"flex","orientation":"nonsense"},"selectedPostId":23,"selectedPostType":"gatherpress_venue"} -->
