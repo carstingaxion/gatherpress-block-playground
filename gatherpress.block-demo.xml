@@ -143,7 +143,35 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://gatherpress.test/?page_id=7</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-query-loop"} -->
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://raw.githubusercontent.com/GatherPress/gatherpress/main/.wordpress-org/banner-1544x500.jpg","id":241,"hasParallax":true,"isUserOverlayColor":true,"customGradient":"linear-gradient(0deg,rgb(249,249,249) 6%,rgba(250,250,250,0) 51%,rgb(249,249,249) 94%)","align":"full","style":{"color":{"duotone":"unset"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(0deg,rgb(249,249,249) 6%,rgba(250,250,250,0) 51%,rgb(249,249,249) 94%)"></span><div class="wp-block-cover__image-background wp-image-241 has-parallax" style="background-position:50% 50%;background-image:url(https://raw.githubusercontent.com/GatherPress/gatherpress/main/.wordpress-org/banner-1544x500.jpg)"></div><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"265px"} -->
+<div style="height:265px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top has-contrast-color has-text-color has-link-color"><!-- wp:column {"verticalAlignment":"top","width":""} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/assets/gatherpress-blocks-with-new-icons.png" alt="" class="wp-image-242"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":""} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:paragraph {"fontSize":"x-large"} -->
+<p class="has-x-large-font-size"><strong>100% core block variations!</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…","fontSize":"large"} -->
+<p class="has-large-font-size">Show all your events using the <strong>Events Query</strong> block &amp; many others provided by <em>GatherPress</em>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"265px"} -->
+<div style="height:265px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_events_query":"upcoming","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-query-loop"} -->
 <div class="wp-block-query"><!-- wp:post-template -->
 <!-- wp:post-title /-->
 
@@ -208,6 +236,10 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-no-title]]></wp:meta_value>
 		</wp:postmeta>
 						</item>
 					<item>
