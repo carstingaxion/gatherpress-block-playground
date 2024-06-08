@@ -55,6 +55,13 @@
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/onlineevent-or-venue-block"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
         "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue"
       }
     },
