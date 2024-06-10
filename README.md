@@ -19,7 +19,7 @@
 | A *new* Block ... | [gatherpress-venue.zip](https://github.com/carstingaxion/gatherpress-venue/archive/refs/heads/main.zip) |- [ISSUE: Add group block-variation to provide context like the existing gatherpress/venue block does](https://github.com/GatherPress/gatherpress/issues/629)<br/>- [ISSUE: Convert Address, Phone, Website to not load in a React Component in the Front End](https://github.com/GatherPress/gatherpress/issues/562) |
 | An experiment to replace the "website" part of the `gatherpress/venue` block with a block-variation of the `core/paragraph` block. | [gatherpress-venue-website.zip](https://github.com/carstingaxion/gatherpress-venue-website/archive/refs/heads/main.zip) |- [ISSUE: NEW Venue Website block](https://github.com/GatherPress/gatherpress/issues/638) | 
 | The map block | ... |- [ISSUE: NEW Venue Map block](https://github.com/GatherPress/gatherpress/issues/639) |
-| The Event date block | ... | |
+| The Event date block | ... |- [ISSUE: NEW Event Date block](https://github.com/GatherPress/gatherpress/issues/684) |
 | The RSVP block | ... | |
 | The RSVP response block | ... | |
 
