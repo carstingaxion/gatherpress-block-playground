@@ -62,6 +62,13 @@
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-add-to-calendar&branch=block-bindings"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
         "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-onlineevent-or-venue-block"
       }
     },
