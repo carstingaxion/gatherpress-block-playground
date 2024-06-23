@@ -47,6 +47,13 @@
     {
       "step": "installPlugin",
       "pluginZipFile": {
+          "resource": "wordpress.org/plugins",
+          "slug": "gutenberg"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
         "resource": "url",
         "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-add-to-calendar&branch=interactivity-api"
       }
@@ -63,13 +70,6 @@
       "pluginZipFile": {
         "resource": "url",
         "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-venue"
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginZipFile": {
-          "resource": "wordpress.org/plugins",
-          "slug": "gutenberg"
       }
     },
     {
