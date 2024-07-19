@@ -106,6 +106,13 @@
         "resource": "url",
         "url": "https://raw.githubusercontent.com/carstingaxion/gatherpress-block-playground/main/gatherpress.block-demo.xml"
       }
+    },
+    {
+      "step": "updateUserMeta",
+      "meta": {
+        "admin_color": "modern"
+      },
+      "userId": 1
     }
   ]
 }
