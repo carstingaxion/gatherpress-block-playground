@@ -87,6 +87,13 @@
       }
     },
     {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gatherpress-commands"
+      }
+    },
+    {
       "step": "importWxr",
       "file": {
         "resource": "url",

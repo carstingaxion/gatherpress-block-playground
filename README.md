@@ -23,6 +23,7 @@
 | The Event date block | ... |- [ISSUE: NEW Event Date block](https://github.com/GatherPress/gatherpress/issues/684) |
 | The RSVP block | ... | |
 | The RSVP response block | ... |- [ISSUE: NEW interactive RSVP block](https://github.com/GatherPress/gatherpress/issues/691) |
+| New commands for the palette | ... |- [ISSUE: NEW Commands for Palette (API)](https://github.com/GatherPress/gatherpress/issues/735) |
 
 
 ## ... imports some demo content
