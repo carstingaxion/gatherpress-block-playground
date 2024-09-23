@@ -28,7 +28,7 @@
 
 ## ... imports some demo content
 
-- The *(not, yet) default* [GatherPress demo-data](https://github.com/carstingaxion/gatherpress-demo-data)
+- The *(not, yet) default* [GatherPress demo-data](https://github.com/GatherPress/gatherpress-demo-data)
 - [one additional page](/gatherpress.block-demo.xml) "Query Events" with all blocks in use
 
 ## ... and sets some options
